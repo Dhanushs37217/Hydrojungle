@@ -1,0 +1,71 @@
+header,footer{
+    color: darkorange;
+}
+
+ul {
+    display: flex;
+    
+    
+
+
+}
+
+li{
+    padding-right: 30px;
+    
+}
+ 
+/* class Selectors */
+.headings{
+    background-color: bisque;
+}
+.menu{
+    color: aqua;
+}
+.margin{
+    margin: 30px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+/* Id Selectors  */
+#inline{
+    color: chartreuse;
+}
+
+/* child Selctors */
+main > div{
+    background-color: white;
+}
+
+/* descidadant  Selectors  */
+main p{
+    align-items: center;
+    padding: 5px;
+    border: 6px solid red;
+    margin: 4px;
+    
+
+}
+
+/* Universl Selectors  */
+
+*{
+    align-content: center;
+}
+
+/* Pseduo Selectors  */
+a:visited{
+    color: brown;
+}
+
+a:link{
+    color: yellow;
+}
+a:active{
+    color:chartreuse;
+}
+a:hover{
+    color: aqua;
+}
+

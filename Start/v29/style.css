@@ -1,0 +1,33 @@
+.first{
+    border:2px solid black;
+    width: 30vw;
+    height: 500px;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 12px;
+    
+}
+
+img{
+    height:250px;
+    width: inherit;
+    border-radius: inherit;
+    
+}
+button{
+    border-radius:10px ;
+    
+}
+
+.second {
+    text-align: center;
+}
+.second button{
+    padding: 10px;
+    color:blue;
+    background-color: lightblue;
+    border-radius: 16px;
+}
+bu{
+    left: 30px;
+}

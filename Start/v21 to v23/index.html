@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+<style>
+.container {
+  display: flex;           /* makes children align in a row */
+  justify-content: center; /* spreads them evenly */
+  border: 2px solid #333;  /* just for visibility */
+  padding: 10px;
+  width: 500px;
+}
+.container span {
+  background-color: lightblue;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid red;
+  width: 30vmin;
+}
+
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <span> One </span>
+        <span>Two</span>
+        <span>Three</span>
+    </div>
+    
+</body>
+</html>
